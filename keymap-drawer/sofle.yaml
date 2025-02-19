@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: sofle/rev1}
 layers:
   default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, DELETE, PRINTSCREEN, A, S, D, F, G, H, J, K, L, ;,
-    '''', LSHFT, Z, X, C, V, B, MUTE, '', B, N, M, ',', ., /, LCTRL, LEFT WIN, LEFT ALT, default, SPACE, ENTER, lower, RCTRL, '-', '=']
+    '''', LSHFT, Z, X, C, V, B, MUTE, '', B, N, M, ',', ., /, LCTRL, LEFT WIN, LEFT ALT, raise, SPACE, ENTER, lower, RCTRL, '-', '=']
   lower:
   - {t: ▽, type: trans}
   - F1
@@ -117,7 +117,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -178,7 +178,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - {type: held}
